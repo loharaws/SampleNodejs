@@ -8,8 +8,7 @@ services:
     environment:
       - MONGO_DB_USERNAME=${MONGO_ADMIN_USER}
       - MONGO_DB_PWD=${MONGO_ADMIN_PWD}
-
-
+      
   mongodb:
     image: mongo
     ports:
